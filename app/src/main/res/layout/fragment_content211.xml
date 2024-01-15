@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F8"
+    android:id="@+id/rootView"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="172px"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:textColor="@color/black"
+            android:textSize="65px"
+            android:gravity="center"
+            android:text="1"/>
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="150px"
+            android:layout_marginTop="19px"
+            android:layout_marginBottom="19px"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_marginStart="78px"
+            android:textSize="65px"
+            android:text="옻칠의 종류"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1130px"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:layout_marginStart="172px"
+            android:background="@color/black"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="2206px"
+            android:layout_height="wrap_content"
+            android:paddingLeft="77px"
+            android:paddingRight="77px"
+            android:id="@+id/myScrollView"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80px"
+                android:orientation="vertical"
+                android:layout_marginBottom="96px"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="옻칠은 정제 방법에 따라 크게 생칠, 정제칠, 색칠(흑칠, 주칠 등)로 구분한다."
+                    android:lineHeight="82px"
+                    android:textSize="54px"
+                    android:layout_marginBottom="45px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1175px">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1109px"
+                        android:src="@drawable/image_2_1_1_1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|bottom"
+                        android:gravity="center_vertical"
+                        android:text="출처 : 서울시 역사문화재과"
+                        android:fontFamily="@font/suit_medium"
+                        android:textSize="40px"
+                        android:textColor="#a4a4a4" />
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="875px"
+                        android:src="@drawable/image_2_1_1_2"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="생칠"
+                            android:textSize="58px"
+                            android:lineHeight="72px"
+                            android:layout_marginBottom="16px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineHeight="82px"
+                            android:text="옻나무에서 채취한 옻칠의 불순물을 여과한 상태로 회백색을 띤다. 일반적으로 ‘옻칠’은 생칠 상태를 일컫는다."
+                            android:textSize="54px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="875px"
+                        android:src="@drawable/image_2_1_1_3"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="정제칠"
+                            android:textSize="58px"
+                            android:lineHeight="72px"
+                            android:layout_marginBottom="16px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineHeight="82px"
+                            android:text="옻칠의 불순물을 거른 뒤 수분을 3% 정도 남기고 증발시켜 만든 옻칠로 검고 투명한 빛을 띤다. 투명칠, 주합칠이라고도 한다."
+                            android:textSize="54px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="875px"
+                        android:src="@drawable/image_2_1_1_4"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="흑칠"
+                            android:textSize="58px"
+                            android:lineHeight="72px"
+                            android:layout_marginBottom="16px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineHeight="82px"
+                            android:text="정제칠에 연매나 철을 첨가하여 검게 만든 옻칠이다. 칠기에 색을 입혀 마무리할 때 가장 많이 사용한다."
+                            android:textSize="54px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:background="@color/black"/>
+        <ImageView
+            android:id="@+id/rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_right"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+</LinearLayout>

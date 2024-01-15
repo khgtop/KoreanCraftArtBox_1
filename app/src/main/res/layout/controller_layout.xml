@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:id="@+id/controller_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="54px"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="90px"
+        android:paddingRight="90px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@id/exo_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/suit_semibold"
+            android:textColor="#CDCDCD"
+            android:layout_marginRight="24px"
+            android:textSize="40px" />
+        <com.google.android.exoplayer2.ui.DefaultTimeBar
+            android:id="@id/exo_progress"
+            android:layout_width="0dp"
+            android:layout_height="54px"
+            app:scrubber_enabled_size="30px"
+            app:bar_height="10px"
+            app:scrubber_color="@color/white"
+            app:played_color="@color/white"
+            app:buffered_color="#3c3c3c"
+            app:unplayed_color="#3c3c3c"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@id/exo_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/suit_semibold"
+            android:textColor="#CDCDCD"
+            android:layout_marginLeft="24px"
+            android:textSize="40px"  />
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="44dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:gravity="center"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/progressLayout">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            >-->
+
+<!--            <ImageButton-->
+<!--                android:id="@id/exo_rew"-->
+<!--                android:layout_width="200px"-->
+<!--                android:layout_height="200px"-->
+<!--                android:layout_marginStart="94dp"-->
+<!--                android:tintMode="src_in"-->
+<!--                app:srcCompat="@drawable/button_right"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@id/exo_play"-->
+<!--                android:layout_width="200px"-->
+<!--                android:layout_height="200px"-->
+<!--                android:tintMode="src_in"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/exo_ffwd"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/exo_rew"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:srcCompat="@drawable/button_right"-->
+<!--                />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@id/exo_pause"-->
+<!--                android:layout_width="200px"-->
+<!--                android:layout_height="200px"-->
+<!--                android:tintMode="src_in"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/exo_ffwd"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/exo_rew"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@id/exo_ffwd"-->
+<!--                android:layout_width="200px"-->
+<!--                android:layout_height="200px"-->
+<!--                android:layout_marginEnd="94dp"-->
+<!--                android:tintMode="src_in"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:srcCompat="@drawable/button_right" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <TextView-->
+<!--            android:id="@id/exo_position"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:includeFontPadding="false"-->
+<!--            android:paddingLeft="4dp"-->
+<!--            android:paddingRight="4dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="42px"-->
+<!--            android:textStyle="bold" />-->
+<!--        <TextView-->
+<!--            android:id="@id/exo_duration"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:includeFontPadding="false"-->
+<!--            android:paddingLeft="4dp"-->
+<!--            android:paddingRight="4dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="42px"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

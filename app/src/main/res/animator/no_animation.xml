@@ -1,0 +1,4 @@
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android">
+    <propertyValuesHolder android:propertyName="radius" />
+    <propertyValuesHolder android:propertyName="alpha" />
+</objectAnimator>

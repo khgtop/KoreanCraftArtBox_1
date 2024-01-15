@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FBF9F8"
+    android:orientation="vertical"
+    android:id="@+id/rootView"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="172px"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:textColor="@color/black"
+            android:textSize="65px"
+            android:gravity="center"
+            android:text="1"/>
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="150px"
+            android:layout_marginTop="19px"
+            android:layout_marginBottom="19px"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_marginStart="78px"
+            android:textSize="65px"
+            android:text="채취하기"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1130px"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:layout_marginStart="172px"
+            android:background="@color/black"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="2206px"
+            android:layout_height="wrap_content"
+            android:paddingLeft="77px"
+            android:paddingRight="77px"
+            android:id="@+id/myScrollView"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="96px"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="875px">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_1_1_1_1"/>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="옻칠이란?"
+                            android:textSize="58px"
+                            android:layout_marginBottom="16px"
+                            android:lineHeight="72px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="옻나무에 칼로 홈을 내면 상처 부위를 보호하기 위해 하얀 수액을 내보내는데, 이것을 가공하여 만든 칠 또는 칠을 바르는 행위를 말한다. 옻나무에서 나온 천연의 수액 상태를 옻액, 생옻, 원생칠, 천연 생칠 등으로 구분하기도 한다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="875px"
+                    android:layout_marginTop="80px">
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_1_1_1_2"/>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="옻나무의 성장이 가장 왕성한 시기인 매년 6~9월에 옻칠을 채취한다. 채취 시기에 따라 초칠, 성칠, 말칠이라 한다. 이중 성칠의 광택이 가장 좋고 경도가 높아 공예품의 재료로 수요가 많다."
+                            android:lineHeight="82px"
+                            android:textSize="54px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="339px"
+                            android:stretchColumns="*">
+
+                            <!-- 행 1 -->
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="113px"
+                                android:background="#C9C9C9"
+                                >
+                                <TextView
+                                    android:layout_width="300px"
+                                    android:layout_height="113px"
+                                    android:text="초칠"
+                                    android:gravity="center"
+                                    android:textSize="44px"
+                                    android:fontFamily="@font/suit_bold"
+                                    android:layout_marginTop="4px"
+                                    android:layout_marginRight="4px"
+                                    android:layout_marginBottom="4px"
+                                    android:textColor="@color/black"
+                                    android:background="#FBF9F8" />
+
+                                <TextView
+                                    android:layout_width="687px"
+                                    android:layout_height="match_parent"
+                                    android:text="6월 초~7월 초"
+                                    android:textSize="42px"
+                                    android:fontFamily="@font/suit_medium"
+                                    android:textColor="@color/black"
+                                    android:layout_marginTop="4px"
+                                    android:layout_marginBottom="4px"
+                                    android:gravity="center"
+                                    android:background="#FBF9F8" />
+                            </TableRow>
+
+                            <!-- 행 2 -->
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="113px"
+                                android:background="#C9C9C9"
+                                >
+                                <TextView
+                                    android:layout_width="300px"
+                                    android:layout_height="113px"
+                                    android:layout_marginRight="4px"
+                                    android:layout_marginBottom="4px"
+                                    android:text="성칠"
+                                    android:fontFamily="@font/suit_bold"
+                                    android:textSize="44px"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:background="#FBF9F8"/>
+
+                                <TextView
+                                    android:layout_width="687px"
+                                    android:layout_height="match_parent"
+                                    android:text="7월 중~8월 말"
+                                    android:textSize="42px"
+                                    android:layout_marginBottom="4px"
+                                    android:fontFamily="@font/suit_medium"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:background="#FBF9F8" />
+                            </TableRow>
+
+                            <!-- 행 3 -->
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="113px"
+                                android:background="#C9C9C9"
+                                >
+                                <TextView
+                                    android:layout_width="300px"
+                                    android:layout_height="113px"
+                                    android:layout_marginRight="4px"
+                                    android:text="말칠"
+                                    android:fontFamily="@font/suit_bold"
+                                    android:textColor="@color/black"
+                                    android:textSize="44px"
+                                    android:gravity="center"
+                                    android:background="#FBF9F8" />
+                                <TextView
+                                    android:layout_width="687px"
+                                    android:layout_height="match_parent"
+                                    android:text="9월 초~9월 말"
+                                    android:textSize="42px"
+                                    android:fontFamily="@font/suit_medium"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:background="#FBF9F8" />
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <!-- 외부 선 -->
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="4px"
+                            android:background="#C9C9C9" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="114px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="793px"
+                        android:src="@drawable/image_1_1_1_3"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="01"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="긁기낫으로 옻나무 껍질을 깎아 홈을 낸다."
+                            android:lineHeight="82px"
+                            android:textSize="49px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="793px"
+                        android:src="@drawable/image_1_1_1_4"/>
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="02"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="주걱칼로 홈에 고인 옻칠을 긁어내어 채취한다."
+                            android:lineHeight="82px"
+                            android:textSize="49px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1155px"
+                    android:layout_marginTop="80px">
+
+                    <ImageView
+                        android:id="@+id/videoImageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#99000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="175px"
+                        android:layout_height="175px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="426px"
+                        android:src="@drawable/button_video_thumbnailplay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="옻칠 채취 과정 영상 보기"
+                        android:layout_marginTop="646px"
+                        android:textSize="54px"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180px">
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="875px">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_1_1_1_5"/>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="도구"
+                            android:lineHeight="72px"
+                            android:textSize="58px"
+                            android:layout_marginBottom="16px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="옻나무의 껍질을 벗겨내는 긁기낫, 껍질을 벗긴 자리에 고인 옻칠을 긁어내는 주걱칼, 채취한 옻칠을 모아두는 옻통이 있다. 장인이 자신의 손에 맞게 기존의 도구를 직접 손질하거나 새로 만들어 사용한다."
+                            android:lineHeight="82px"
+                            android:textSize="54px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:background="@color/black"/>
+        <ImageView
+            android:id="@+id/rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_right"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+</LinearLayout>

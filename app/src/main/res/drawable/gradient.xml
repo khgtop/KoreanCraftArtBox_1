@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 0px~424px 그라데이션 -->
+    <item
+        android:top="424px"
+        android:bottom="0px">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#99000000"
+                android:endColor="#3C000000"
+                android:angle="90" />
+        </shape>
+    </item>
+
+    <!-- 2136px ~ 2560px 그라데이션 -->
+    <item
+        android:top="2136px"
+        android:bottom="0px">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#3C000000"
+                android:endColor="#99000000"
+                android:angle="90" />
+        </shape>
+    </item>
+
+</layer-list>

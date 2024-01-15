@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F8"
+    android:id="@+id/rootView"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="172px"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:textColor="@color/black"
+            android:textSize="65px"
+            android:gravity="center"
+            android:text="1"/>
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="150px"
+            android:layout_marginTop="19px"
+            android:layout_marginBottom="19px"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_marginStart="78px"
+            android:textSize="65px"
+            android:text="정제하기"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1130px"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:layout_marginStart="172px"
+            android:background="@color/black"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="2206px"
+            android:id="@+id/myScrollView"
+            android:layout_height="wrap_content"
+            android:paddingLeft="77px"
+            android:paddingRight="77px"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20px"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="139px"
+                    android:layout_marginTop="80px">
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="875px">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_1_2_1_1"/>
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineHeight="82px"
+                            android:text="옻나무에서 채취한 옻칠은 벌레나 나무껍질과 같은 불순물이 들어있으며, 수분이 많아 기물에 칠하면 주름이 생기거나 변색되는 등 결함이 발생하기 쉽다. 따라서 공예품에 사용하기 위해서는 불순물을 거르고 수분을 증발시키는 ‘정제(精製)’ 과정을 거쳐야 한다. 정제하여 검은 빛을 띄고 투명해진 옻칠은 ‘정제칠’이라 한다."
+                            android:textSize="54px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="[1] 고무래 정제 방법"
+                    android:lineHeight="72px"
+                    android:textSize="58px"
+                    android:layout_marginBottom="16px"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="넓은 사각의 칠판에 옻칠을 붓고 고무래로 저어 햇빛과 바람을 이용하여 자연적으로 수분을 증발시키는 방법이다. 옻칠 속 입자를 고르게 분산시키고 수분량을 조절하여 기물에 칠했을 때 붓 자국이 거의 남지 않고 튼튼한 도막을 만든다."
+                    android:lineHeight="82px"
+                    android:textSize="54px"
+                    android:layout_marginBottom="45px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1109px"
+                    android:src="@drawable/image_1_2_1_2"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="793px"
+                        android:src="@drawable/image_1_2_1_3"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="01"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="옻나무에서 채취한 옻칠에 목화솜을 잘게 찢어 넣은 뒤 고루 섞어 불순물이 솜에 달라붙도록 한다."
+                            android:lineHeight="75px"
+                            android:textSize="49px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="793px"
+                        android:src="@drawable/image_1_2_1_4"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="02"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="목화솜과 섞은 옻칠을 삼베로 짜내어 솜에 달라붙은 불순물을 여과한다. 옻통에는 불순물 없이 깨끗하게 걸러진 옻칠만 남는다."
+                            android:lineHeight="75px"
+                            android:textSize="49px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="793px"
+                        android:src="@drawable/image_1_2_1_5"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="03"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="삼베로 거른 옻칠을 칠판에 붓고 수분이 증발되어 살짝 투명해질 때까지 고무래로 계속 젓는다. 정제가 완료된 시점을 파악하는 기준은 장인에 따라 차이가 있다."
+                            android:lineHeight="75px"
+                            android:textSize="49px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1155px"
+                    android:layout_marginTop="80px">
+
+                    <ImageView
+                        android:id="@+id/videoImageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#99000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="175px"
+                        android:layout_height="175px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="426px"
+                        android:src="@drawable/button_video_thumbnailplay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="재래식 정제 과정 영상 보기"
+                        android:textSize="54px"
+                        android:layout_marginTop="646px"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="[2] 기계식 정제 방법"
+                    android:textSize="58px"
+                    android:layout_marginTop="180px"
+                    android:layout_marginBottom="16px"
+                    android:lineHeight="72px"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기계의 동력을 이용하여 수분을 증발시키는 방법이다. 고무래 정제 방법과 달리 날씨에 영향을 받지 않고 정제 시간을 두 배 이상 절약할 수 있다."
+                    android:lineHeight="82px"
+                    android:textSize="54px"
+                    android:layout_marginBottom="45px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1109px"
+                    android:src="@drawable/image_1_2_1_6"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="793px"
+                        android:src="@drawable/image_1_2_1_8"/>
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="01"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="목화솜을 찢어 넣고 고루 섞은 옻칠을 원심분리기에 넣고 기계를 작동한다."
+                            android:lineHeight="75px"
+                            android:textSize="49px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="793px"
+                        android:src="@drawable/image_1_2_1_9"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="02"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="회전력에 의해 옻칠과 불순물이 달라붙은 목화솜이 분리되면서 순수한 옻칠이 추출된다."
+                            android:lineHeight="75px"
+                            android:textSize="49px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="793px"
+                        android:src="@drawable/image_1_2_1_7"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="03"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="불순물을 걸러낸 옻칠을 교반기에 넣고 기계를 작동하여 수분을 증발시켜 검고 투명하게 만든다."
+                            android:lineHeight="75px"
+                            android:textSize="49px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1155px"
+                    android:layout_marginTop="80px">
+
+                    <ImageView
+                        android:id="@+id/videoImageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#99000000"
+                        />
+                    <ImageView
+                        android:layout_width="175px"
+                        android:layout_height="175px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="426px"
+                        android:src="@drawable/button_video_thumbnailplay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="개량식 정제 과정 영상 보기"
+                        android:textSize="54px"
+                        android:layout_marginTop="646px"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>

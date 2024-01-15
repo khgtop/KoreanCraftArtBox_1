@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F8"
+    android:id="@+id/rootView"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="172px"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:textColor="@color/black"
+            android:textSize="65px"
+            android:gravity="center"
+            android:text="1"/>
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="150px"
+            android:layout_marginTop="19px"
+            android:layout_marginBottom="19px"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_marginStart="78px"
+            android:textSize="65px"
+            android:text="화학 안료"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1130px"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:layout_marginStart="172px"
+            android:background="@color/black"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="2206px"
+            android:layout_height="wrap_content"
+            android:paddingLeft="77px"
+            android:paddingRight="77px"
+            android:id="@+id/myScrollView"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80px">
+                <FrameLayout
+                    android:layout_width="985px"
+                    android:layout_height="985px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="985px"
+                        android:src="@drawable/image_3_2_1_1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="95px"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="24px"
+                        android:text="정해조, &lt;오색광율 2015&gt;"
+                        android:textSize="40px"
+                        android:background="#4D4D4D"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="987px"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="80px"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="다양한 색상의 옻칠"
+                        android:textSize="58px"
+                        android:lineHeight="72px"
+                        android:layout_marginBottom="16px"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="현대에 많은 종류의 화학 안료가 개발되면서 옻칠로 다양한 색상을 내어 활용한다."
+                        android:textSize="54px"
+                        android:lineHeight="82px"
+                        android:fontFamily="@font/suit_medium"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:background="@color/black"/>
+        <ImageView
+            android:id="@+id/rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_right"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+</LinearLayout>

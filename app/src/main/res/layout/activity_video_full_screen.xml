@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/rootView"
+    >
+
+    <!-- 비디오 플레이어를 포함할 ExoPlayerView -->
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:use_controller="false"
+        />
+
+    <LinearLayout
+        android:id="@+id/backgroundLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="top"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="424"
+            android:background="@drawable/gradient_start"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1712"
+            android:background="@android:color/black"
+            android:alpha="0.6"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="424"
+            android:background="@drawable/gradient_end"
+            />
+    </LinearLayout>
+<!--    <View-->
+<!--        android:id="@+id/backgroundLayer"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@drawable/gradient"-->
+<!--        android:visibility="gone"-->
+<!--        />-->
+
+    <com.google.android.exoplayer2.ui.PlayerControlView
+        android:id="@+id/controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="90px"
+        android:background="@android:color/transparent"
+        app:controller_layout_id="@layout/controller_layout"
+        app:show_timeout="0" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/closeButton"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="60px"
+        android:layout_marginRight="60px"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/button_close2" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pauseButton"
+        android:layout_gravity="center"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="68px"
+            android:layout_height="114px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/button_pause" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playButton"
+        android:layout_gravity="center"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="130px"
+            android:layout_height="119px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/button_play" />
+    </FrameLayout>
+
+
+
+</FrameLayout>

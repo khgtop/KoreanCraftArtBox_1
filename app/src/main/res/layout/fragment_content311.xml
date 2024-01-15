@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F8"
+    android:id="@+id/rootView"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="172px"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:textColor="@color/black"
+            android:textSize="65px"
+            android:gravity="center"
+            android:text="1"/>
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="150px"
+            android:layout_marginTop="19px"
+            android:layout_marginBottom="19px"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_marginStart="78px"
+            android:textSize="65px"
+            android:text="천연 안료"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1130px"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:layout_marginStart="172px"
+            android:background="@color/black"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="2206px"
+            android:layout_height="wrap_content"
+            android:paddingLeft="77px"
+            android:paddingRight="77px"
+            android:id="@+id/myScrollView"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80px"
+                android:orientation="vertical"
+                android:layout_marginBottom="20px"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineHeight="82px"
+                    android:text="옻칠과 혼합하여 색을 내는 천연 안료로 흑칠의 재료인 연매(송연, 유연)와 주칠의 재료인 광물 안료(주사, 석간주)가 대표적이다."
+                    android:textSize="54px"
+                    android:layout_marginBottom="45px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1175px">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1109px"
+                        android:src="@drawable/image_3_1_1_1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|bottom"
+                        android:gravity="center_vertical"
+                        android:text="출처 : 서울시 역사문화재과"
+                        android:fontFamily="@font/suit_medium"
+                        android:textSize="40px"
+                        android:textColor="#a4a4a4" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="718px">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_3_1_1_5"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="95px"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="24px"
+                            android:text="&lt;지장함&gt;, 조선"
+                            android:textSize="40px"
+                            android:background="#4D4D4D"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@android:color/white" />
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="흑칠"
+                            android:textSize="58px"
+                            android:lineHeight="72px"
+                            android:layout_marginBottom="16px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineHeight="82px"
+                            android:text="소나무의 그을음인 송연(松煙)과 들기름의 그을음인 유연(油煙)이 대표적이다."
+                            android:textSize="54px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="718px">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_3_1_1_6"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="95px"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="24px"
+                            android:text="&lt;주칠함&gt;, 조선"
+                            android:textSize="40px"
+                            android:background="#4D4D4D"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@android:color/white" />
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="주칠"
+                            android:textSize="58px"
+                            android:layout_marginBottom="16px"
+                            android:lineHeight="72px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineHeight="82px"
+                            android:text="광물 안료인 주사(朱沙)와 철 성분을 많이 함유하여 붉은 색을 띠는 흙인 석간주(石間硃)가 대표적이다."
+                            android:textSize="54px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="색칠 만들기"
+                    android:lineHeight="72px"
+                    android:textSize="58px"
+                    android:layout_marginTop="180px"
+                    android:layout_marginBottom="20px"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineHeight="82px"
+                    android:text="천연 안료로 적은 양의 색칠을 만들 때 사용하는 방법이다. 옻칠과 안료를 칠주걱으로 섞은 뒤 밀대로 안료 알갱이를 으깨어 옻칠과 완전히 섞이게 한다."
+                    android:textSize="54px"
+                    android:layout_marginBottom="45px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1175px">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1109px"
+                        android:src="@drawable/image_3_1_1_2"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|bottom"
+                        android:gravity="center_vertical"
+                        android:text="출처 : 서울시 역사문화재과"
+                        android:fontFamily="@font/suit_medium"
+                        android:textSize="40px"
+                        android:textColor="#a4a4a4" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="793px"
+                        android:src="@drawable/image_3_1_1_3"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="01"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineHeight="82px"
+                            android:text="옻칠과 안료를 칠주걱으로 저어 1차적으로 섞어준다."
+                            android:textSize="49px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px">
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="793px"
+                        android:src="@drawable/image_3_1_1_4"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="02"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineHeight="82px"
+                            android:text="밀대로 안료 덩어리를 으깨어 옻칠과 안료가 완전히 섞이게 한다."
+                            android:textSize="49px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1155px"
+                    android:layout_marginTop="80px">
+
+                    <ImageView
+                        android:id="@+id/videoImageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#99000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="175px"
+                        android:layout_height="175px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="426px"
+                        android:src="@drawable/button_video_thumbnailplay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="색칠 제조 영상 보기"
+                        android:textSize="54px"
+                        android:layout_marginTop="646px"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:background="@color/black"/>
+        <ImageView
+            android:id="@+id/rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_right"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+</LinearLayout>
